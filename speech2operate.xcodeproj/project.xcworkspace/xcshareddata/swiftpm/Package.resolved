@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftautogui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NakaokaRei/SwiftAutoGUI",
+      "state" : {
+        "branch" : "master",
+        "revision" : "9efe9fc805abfcf27786128958abbe7d53335284"
+      }
+    }
+  ],
+  "version" : 2
+}

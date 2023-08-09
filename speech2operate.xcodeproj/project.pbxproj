@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23969B2C2A81B8F7002AC8B4 /* speech2operateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23969B2B2A81B8F7002AC8B4 /* speech2operateApp.swift */; };
+		23969B2E2A81B8F7002AC8B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23969B2D2A81B8F7002AC8B4 /* ContentView.swift */; };
+		23969B302A81B8F8002AC8B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23969B2F2A81B8F8002AC8B4 /* Assets.xcassets */; };
+		23969B332A81B8F8002AC8B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23969B322A81B8F8002AC8B4 /* Preview Assets.xcassets */; };
+		23969B3C2A81B96C002AC8B4 /* SwiftAutoGUI in Frameworks */ = {isa = PBXBuildFile; productRef = 23969B3B2A81B96C002AC8B4 /* SwiftAutoGUI */; };
+		23969B3E2A832A73002AC8B4 /* SpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23969B3D2A832A73002AC8B4 /* SpeechController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23969B282A81B8F7002AC8B4 /* speech2operate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speech2operate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23969B2B2A81B8F7002AC8B4 /* speech2operateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speech2operateApp.swift; sourceTree = "<group>"; };
+		23969B2D2A81B8F7002AC8B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23969B2F2A81B8F8002AC8B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23969B322A81B8F8002AC8B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23969B342A81B8F8002AC8B4 /* speech2operate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = speech2operate.entitlements; sourceTree = "<group>"; };
+		23969B3D2A832A73002AC8B4 /* SpeechController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechController.swift; sourceTree = "<group>"; };
+		23969B3F2A833379002AC8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23969B252A81B8F6002AC8B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23969B3C2A81B96C002AC8B4 /* SwiftAutoGUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23969B1F2A81B8F6002AC8B4 = {
+			isa = PBXGroup;
+			children = (
+				23969B2A2A81B8F7002AC8B4 /* speech2operate */,
+				23969B292A81B8F7002AC8B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23969B292A81B8F7002AC8B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23969B282A81B8F7002AC8B4 /* speech2operate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23969B2A2A81B8F7002AC8B4 /* speech2operate */ = {
+			isa = PBXGroup;
+			children = (
+				23969B3F2A833379002AC8B4 /* Info.plist */,
+				23969B2B2A81B8F7002AC8B4 /* speech2operateApp.swift */,
+				23969B2D2A81B8F7002AC8B4 /* ContentView.swift */,
+				23969B2F2A81B8F8002AC8B4 /* Assets.xcassets */,
+				23969B342A81B8F8002AC8B4 /* speech2operate.entitlements */,
+				23969B312A81B8F8002AC8B4 /* Preview Content */,
+				23969B3D2A832A73002AC8B4 /* SpeechController.swift */,
+			);
+			path = speech2operate;
+			sourceTree = "<group>";
+		};
+		23969B312A81B8F8002AC8B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				23969B322A81B8F8002AC8B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23969B272A81B8F6002AC8B4 /* speech2operate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23969B372A81B8F8002AC8B4 /* Build configuration list for PBXNativeTarget "speech2operate" */;
+			buildPhases = (
+				23969B242A81B8F6002AC8B4 /* Sources */,
+				23969B252A81B8F6002AC8B4 /* Frameworks */,
+				23969B262A81B8F6002AC8B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = speech2operate;
+			packageProductDependencies = (
+				23969B3B2A81B96C002AC8B4 /* SwiftAutoGUI */,
+			);
+			productName = speech2operate;
+			productReference = 23969B282A81B8F7002AC8B4 /* speech2operate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23969B202A81B8F6002AC8B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					23969B272A81B8F6002AC8B4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 23969B232A81B8F6002AC8B4 /* Build configuration list for PBXProject "speech2operate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23969B1F2A81B8F6002AC8B4;
+			packageReferences = (
+				23969B3A2A81B96C002AC8B4 /* XCRemoteSwiftPackageReference "SwiftAutoGUI" */,
+			);
+			productRefGroup = 23969B292A81B8F7002AC8B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23969B272A81B8F6002AC8B4 /* speech2operate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23969B262A81B8F6002AC8B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23969B332A81B8F8002AC8B4 /* Preview Assets.xcassets in Resources */,
+				23969B302A81B8F8002AC8B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23969B242A81B8F6002AC8B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23969B2E2A81B8F7002AC8B4 /* ContentView.swift in Sources */,
+				23969B2C2A81B8F7002AC8B4 /* speech2operateApp.swift in Sources */,
+				23969B3E2A832A73002AC8B4 /* SpeechController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23969B352A81B8F8002AC8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23969B362A81B8F8002AC8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		23969B382A81B8F8002AC8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = speech2operate/speech2operate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"speech2operate/Preview Content\"";
+				DEVELOPMENT_TEAM = YX6B69FS7M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = speech2operate/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "マイクを使用します";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "音声認識を使用します";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n.rei.speech2operate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		23969B392A81B8F8002AC8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = speech2operate/speech2operate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"speech2operate/Preview Content\"";
+				DEVELOPMENT_TEAM = YX6B69FS7M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = speech2operate/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "マイクを使用します";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "音声認識を使用します";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n.rei.speech2operate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23969B232A81B8F6002AC8B4 /* Build configuration list for PBXProject "speech2operate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23969B352A81B8F8002AC8B4 /* Debug */,
+				23969B362A81B8F8002AC8B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23969B372A81B8F8002AC8B4 /* Build configuration list for PBXNativeTarget "speech2operate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23969B382A81B8F8002AC8B4 /* Debug */,
+				23969B392A81B8F8002AC8B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23969B3A2A81B96C002AC8B4 /* XCRemoteSwiftPackageReference "SwiftAutoGUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NakaokaRei/SwiftAutoGUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23969B3B2A81B96C002AC8B4 /* SwiftAutoGUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23969B3A2A81B96C002AC8B4 /* XCRemoteSwiftPackageReference "SwiftAutoGUI" */;
+			productName = SwiftAutoGUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 23969B202A81B8F6002AC8B4 /* Project object */;
+}
