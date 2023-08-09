@@ -78,21 +78,19 @@ class SpeechController {
             let newPart = newText.replacingCharacters(in: range, with: "")
             return newPart.trimmingCharacters(in: .whitespacesAndNewlines)
         } else {
-            return newText
+            return ""
         }
     }
 
-    func processCommand(_ command: String) {
-        if command.contains("マウスを右に移動") {
-            SwiftAutoGUI.moveMouse(dx: 10, dy: 0)
-            resetCommand()
-        } else if command.contains("仮想デスクトップを左に移動") {
-            SwiftAutoGUI.sendKeyShortcut([.control, .leftArrow])
-            resetCommand()
-        } else if command.contains("スクロールダウン") {
-            SwiftAutoGUI.vscroll(clicks: -10)
-            resetCommand()
-        }
+    func stopRecording() {
+        audioEngine.stop()
+        recognitionRequest?.endAudio()
+    }
+
+    private func processCommand(_ command: String) {
+        guard let command = Command(command) else { return }
+        command.process()
+        resetCommand()
     }
 
     private func resetCommand() {
