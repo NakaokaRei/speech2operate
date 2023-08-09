@@ -5,18 +5,19 @@
 //  Created by rei.nakaoka on 2023/08/09.
 //
 
+import Combine
 import Speech
 import SwiftAutoGUI
 import AVFoundation
 
-class SpeechController {
+class SpeechController: ObservableObject {
     private let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "ja-JP"))!
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     private var recognitionTask: SFSpeechRecognitionTask?
     private let audioEngine = AVAudioEngine()
 
     private var lastTranscription: SFTranscription?
-    private var commandText = ""
+    @Published var commandText = ""
 
     func startRecording() throws {
         if let recognitionTask = recognitionTask {
@@ -87,13 +88,14 @@ class SpeechController {
         recognitionRequest?.endAudio()
     }
 
+    func resetCommand() {
+        commandText = ""
+    }
+
     private func processCommand(_ command: String) {
         guard let command = Command(command) else { return }
         command.process()
         resetCommand()
     }
 
-    private func resetCommand() {
-        commandText = ""
-    }
 }

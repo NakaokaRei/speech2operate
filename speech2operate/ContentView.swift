@@ -9,12 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
 
-    let speechController = SpeechController()
+    @StateObject var speechController = SpeechController()
 
     var body: some View {
         VStack {
+            Text(speechController.commandText)
+                .font(.title)
+                .padding()
             Button("Start Recording") {
                 try? speechController.startRecording()
+            }
+            Button("Reset") {
+                speechController.stopRecording()
+                speechController.resetCommand()
             }
         }
         .padding()
