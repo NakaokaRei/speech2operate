@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2362B5C02A8F776F00B1E960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2362B5BF2A8F776F00B1E960 /* AppDelegate.swift */; };
 		23969B2C2A81B8F7002AC8B4 /* speech2operateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23969B2B2A81B8F7002AC8B4 /* speech2operateApp.swift */; };
 		23969B2E2A81B8F7002AC8B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23969B2D2A81B8F7002AC8B4 /* ContentView.swift */; };
 		23969B302A81B8F8002AC8B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23969B2F2A81B8F8002AC8B4 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2362B5BF2A8F776F00B1E960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23969B282A81B8F7002AC8B4 /* speech2operate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speech2operate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23969B2B2A81B8F7002AC8B4 /* speech2operateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speech2operateApp.swift; sourceTree = "<group>"; };
 		23969B2D2A81B8F7002AC8B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				23969B312A81B8F8002AC8B4 /* Preview Content */,
 				23969B3D2A832A73002AC8B4 /* SpeechController.swift */,
 				23CB19E62A837F580071381B /* Command.swift */,
+				2362B5BF2A8F776F00B1E960 /* AppDelegate.swift */,
 			);
 			path = speech2operate;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2362B5C02A8F776F00B1E960 /* AppDelegate.swift in Sources */,
 				23969B2E2A81B8F7002AC8B4 /* ContentView.swift in Sources */,
 				23969B2C2A81B8F7002AC8B4 /* speech2operateApp.swift in Sources */,
 				23969B3E2A832A73002AC8B4 /* SpeechController.swift in Sources */,

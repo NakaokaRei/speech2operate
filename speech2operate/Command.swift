@@ -57,6 +57,14 @@ extension Command {
             } else {
                 return nil
             }
+        } else if command.contains("タブ") {
+            if command.contains("開く") {
+                self = .keyboard(shortcut: [.command, .t])
+            } else if command.contains("閉じる") {
+                self = .keyboard(shortcut: [.command, .w])
+            } else {
+                return nil
+            }
         } else {
             return nil
         }

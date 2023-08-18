@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct speech2operateApp: App {
+
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
